@@ -13,6 +13,7 @@ func main() {
 
 	fmt.Println("Original Array:", prices)
 	fmt.Println("Sliced Array:", slicePrice)
+	fmt.Println("Capacity of silced Array:", cap(slicePrice))
 	fmt.Println("Slice from beging to given index:", array_f)
 	fmt.Println("Slice from given index to last:", array_l)
 }
