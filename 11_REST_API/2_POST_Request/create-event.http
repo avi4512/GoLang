@@ -1,0 +1,9 @@
+POST http://localhost:8080/createEvent
+Content-Type: application/json
+
+{
+  "name": "Convacation",
+  "description": "Complition of graduation",
+  "location": "KL University",
+  "datetime": "2025-12-27T10:00:00Z"
+}
