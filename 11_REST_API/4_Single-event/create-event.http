@@ -1,0 +1,10 @@
+POST http://localhost:8080/createEvent
+Content-Type: application/json
+
+{
+    "name" : "Engagement",
+    "description" : "All the Friends are Welcome..",
+    "location" : "Konanki",
+    "datetime" : "2026-01-08T10:00:00Z",
+    "userid" : 31701
+}
