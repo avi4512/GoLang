@@ -84,8 +84,9 @@ func GetEventFromId(id int64) (Events, error) {
 
 	if err != nil {
 		fmt.Println(err)
-		return Events{}, nil
+		return Events{}, err
 	}
 	return e, nil
 
 }
+
