@@ -29,7 +29,7 @@ func (e Events) Save() error {
 		return err
 	}
 	defer stmt.Close()
-	result, err := stmt.Exec(e.Id, e.Name, e.Description, e.Location, e.UserId)
+	result, err := stmt.Exec(e.Name, e.Description, e.Location, e.DateTime, e.UserId)
 
 	id, err := result.LastInsertId()
 
@@ -64,3 +64,4 @@ func GetAllEvents() ([]Events, error) {
 
 	return events, nil
 }
+
