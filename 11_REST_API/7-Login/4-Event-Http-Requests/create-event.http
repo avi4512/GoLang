@@ -1,0 +1,10 @@
+POST http://localhost:8080/createEvent
+Content-Type: application/json
+
+{
+    "name" : "Party5",
+    "description" : "All the  are Welcome..",
+    "location" : "Guntur",
+    "datetime" : "2026-01-11T10:00:00Z",
+    "userid" : 1234
+}
