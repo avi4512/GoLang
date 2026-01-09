@@ -10,6 +10,7 @@ func RegisterRouters(server *gin.Engine) {
 	server.PUT("/events/:id", updateEvent)    //[PUT] update the event
 	server.DELETE("/events/:id", deleteEvent) //[DELETE] delete the event
 	server.POST("/signup", signup)
-	server.GET("/users")
+	server.GET("/users",getAllUsers)
 
 }
+
